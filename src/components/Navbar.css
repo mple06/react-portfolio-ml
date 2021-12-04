@@ -1,0 +1,17 @@
+.logo {
+  /* float: right; */
+  color: white;
+  font-size: 30px;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(40, 40, 245),
+    rgb(236, 236, 226)
+  );
+}
+
+.navlinks {
+  text-align: center;
+}

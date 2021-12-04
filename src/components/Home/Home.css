@@ -1,0 +1,70 @@
+.homeContent {
+  display: flex;
+}
+
+.imgCard img {
+  display: flex;
+  width: 200px;
+  height: auto;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 50px;
+  pointer-events: none;
+}
+
+.infoCard p {
+  padding-left: 50px;
+  padding-right: 100px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.infoCard li {
+  text-align: left;
+}
+
+.infoCard h2 {
+  display: flex;
+  padding-left: 50px;
+  margin-top: 50px;
+  color: black;
+}
+.infoCard li {
+  font-weight: bold;
+  color: blue;
+}
+
+section,
+#seattle {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  display: table-cell;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50;
+}
+
+@media only screen and (min-width: 1400px) {
+  .centered {
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+  }
+}
