@@ -68,3 +68,11 @@ section,
     font-size: 30px;
   }
 }
+
+li {
+  float: right;
+  padding: 1%;
+  /* margin-bottom: 2%;
+  margin-top: 0; */
+  text-align: center;
+}
