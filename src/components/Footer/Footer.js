@@ -8,16 +8,16 @@ import './Footer.css'
 function Footer() {
     return (
         <div>
-            <Nav className="justify-content-center footer">
+            <Nav>
                 <Row>
                     <Col md="auto icon">
                         <Nav.Item>
-                            <SocialIcon url="https://github.com/mple06" />
+                            <SocialIcon url="https://www.linkedin.com/in/minhvanle06/" />
                         </Nav.Item>
                     </Col>
-                    <Col md="auto icon">
-                        <Nav.Item>
-                            <SocialIcon url="https://www.linkedin.com/in/minhvanle06/" />
+                    <Col md="auto icon" >
+                        <Nav.Item >
+                            <SocialIcon url="https://github.com/mple06" />
                         </Nav.Item>
                     </Col>
                 </Row >

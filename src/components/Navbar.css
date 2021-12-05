@@ -2,6 +2,7 @@
   /* float: right; */
   color: white;
   font-size: 30px;
+  padding-left: 2%;
 }
 
 .navbar {
@@ -12,6 +13,6 @@
   );
 }
 
-.navlinks {
+/* .navlinks {
   text-align: center;
-}
+} */

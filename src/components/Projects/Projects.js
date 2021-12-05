@@ -8,7 +8,7 @@ import workout from "../images/workout.png"
 function Projects() {
     return (
         <div>
-            <div className="work2 col l3"><h3>Portfolio</h3></div>
+            <div className="work2 col l3"><h3>Projects</h3></div>
             <main className="col s12 m8 l9" id="work">
                 <div className="grid-container">
                     <div className="item1">

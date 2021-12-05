@@ -1,13 +1,5 @@
-.footer-item {
-  margin-bottom: 0px;
-}
-
-.footer {
-  margin-top: 10px;
-}
-
 .icon {
-  padding-top: 12px;
-  float: right;
+  text-align: center;
   padding: 1%;
+  float: right;
 }
