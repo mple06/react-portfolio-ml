@@ -34,6 +34,12 @@ Take a look
 
 ---
 
+## Credits
+
+Credit to my instructor and the TA's that taught me and helped me throughout the course at the UW Bootcamp. I truly appreciate their help.
+
+---
+
 ## License
 
 MIT
