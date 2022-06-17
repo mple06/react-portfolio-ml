@@ -7,7 +7,7 @@ function Navbar() {
             <div className='navlinks row' style={{ marginBottom: 0 }}>
                 <nav className="navbar">
                     <ul>
-                        <li className="logo">Minhvan Le Portfolio</li>
+                        <li className="logo">Minhvan Le</li>
                         <li className="home"><a href='/'>Home</a></li>
                         <li><a href='/projects'>Projects</a></li>
                         <li><a href='/contact'>Contact</a></li>
