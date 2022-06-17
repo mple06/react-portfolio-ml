@@ -13,9 +13,9 @@ function MainPage() {
                 <div className="intro-text alignCenter">
                     <h2 className="mobile-title">MINHVAN LE</h2>
                     <br></br>
-                    <h2 className="intro">Web Developer</h2>
+                    <h2 className="intro">Web Developer x Project Manager</h2>
                     <br></br>
-                    <h3>Bringing brands to life through design and interaction.</h3>
+                    <h3>LOREM IMPSUM</h3>
                     <br></br>
                     <br></br>
                     <Link to="about"
