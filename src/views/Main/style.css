@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  background-color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col-md {
+  width: 100%;
+  padding: 0;
+}
+
+.right-image {
+  background-image: url("../../img/water-rotated.jpg");
+  width: 100%;
+  height: 106vh;
+  z-index: -1000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-top: -100px;
+}
+
+.mobile-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px;
+  letter-spacing: 8px;
+  display: none;
+}
+
+.alignCenter {
+  text-align: center;
+  margin-top: 30vh;
+  padding: 10px;
+}
+
+.intro {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.readMore {
+  background-color: #f5f5f5;
+  color: darkslategrey;
+  border: darkslategrey solid 1px;
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.readMore:hover {
+  background-color: #338aad;
+  color: #f5f5f5;
+}
+
+/* .aboutButton {
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .aboutButton:hover {
+      color: #f5f5f5;
+      text-decoration: none;
+  } */
+
+@media (max-width: 767px) {
+  .right-image {
+    display: none;
+  }
+
+  .col-md {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .mobile-image {
+    background-image: url("../../img/water-rotated.jpg");
+    width: 100%;
+    height: 57vh;
+    z-index: -1000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-top: -293px;
+  }
+
+  .mobile-title {
+    display: block;
+  }
+
+  .alignCenter {
+    margin-top: 21vh;
+    margin-bottom: 20vh;
+  }
+}
+
+/* older iphones */
+@media (max-width: 320px) {
+  .right-image {
+    display: none;
+  }
+
+  .mobile-image {
+    background-image: url("../../img/water-rotated.jpg");
+    width: 100%;
+    height: 75vh;
+    z-index: -1000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-top: -290px;
+  }
+
+  /* h4 {
+          display: block;
+          text-align: center;
+          padding-top:315px;
+      } */
+
+  .intro-text {
+    /* height: 25vh; */
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+  }
+}

@@ -1,27 +1,30 @@
+import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.js';
-import Footer from './components/Footer/Footer.js';
-import Home from './components/Home/Home.js';
-import Projects from './components/Projects/Projects.js';
-import Contacts from './components/Contact/Contact.js';
-import Resume from './components/Resume/Resume.js';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./views/Main";
+import Projects from "./views/Projects";
+import Resume from "./views/Resume";
+import About from "./views/About";
+import Contact from "./views/Contact";
+// import Navbar from './components/Navbar.js';
+// import Footer from './components/Footer/Footer.js';
+// import Home from './components/Home/Home.js';
+// import Projects from './components/Projects/Projects.js';
+// import Contacts from './components/Contact/Contact.js';
+// import Resume from './components/Resume/Resume.js';
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default App;
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route exact path='/contact' element={<Contacts />} />
-          <Route exact path='/projects' element={<Projects />} />
-          <Route exact path='/resume' element={<Resume />} />
-        </Routes>
-        <Footer />
+    <div className="App">
+      <div className="wrapper">
+        <Main />
+        <Projects />
+        <About />
+        <Resume />
+        <Contact />
       </div>
-    </BrowserRouter>
+    </div>
   );
 }
