@@ -1,39 +1,40 @@
 .about-left {
-    background-color: #338aad;
-    text-align: center;
+  background-color: #338aad;
+  text-align: center;
 }
 
 .about-photo {
-    width: 65vh;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+  width: 65vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
 
 #aboutTitle {
-    padding-bottom: 2vh;
+  padding-bottom: 2vh;
 }
 
 .bioText {
-    margin-top: 20px;
-    padding-bottom: 30px;
+  margin-top: 20px;
+  padding-bottom: 30px;
 }
 
 .bio {
-    text-align: center;
-    padding: 8px;
-    width: 80%;
-    margin: auto;
+  text-align: center;
+  padding: 8px;
+  width: 80%;
+  margin: auto;
 }
 
 .skillHeader {
-    font-weight: bold;
-    margin-top: 12px;
+  font-weight: bold;
+  margin-top: 12px;
 }
 
 .skillList {
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .skill {
-    list-style-type: none;
+  list-style-type: none;
+}

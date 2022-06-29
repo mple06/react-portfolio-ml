@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Skip to the Loo",
+    "image": "https://i.imgur.com/ICo97ts.png?1",
+    "about": "Skip the to Loo is a fullstack web application that helps users to find available public restrooms when and where they need them. Users are able to search for nearby loos without creating an account, but in order to add new loos and review existing ones, an account must be created. The app is currently being converted to a React application.",
+    "technologies": [
+      "Node",
+      "Express",
+      "Handlebars",
+      "MySQL",
+      "Google Cloud - Maps & Places APIs",
+      "Bootstrap",
+      "Adobe Illustrator"
+    ],
+    "repo": "https://github.com/alexastef/loo",
+    "site": "https://skip-to-the-loo.com"
+  },
+  {
+    "title": "Evolve With Anna",
+    "image": "https://i.imgur.com/zXsKBiG.png",
+    "about": "Evolve With Anna is a project for a dear friend of mine who was diagnosed with rare bone cancer Ewing Sarcoma in fall of 2020. As a way to raise funds for her treatment and create a strong sense of community behind her, I put together a t-shirt campaign. The big donation sites and quick services take a good bit of money out of each donation, so to maximize the money raised, I built the site using React and Stripe's API. Vuori generously donated the shirts, I created the logo and designed the website, and we raised over $4,000. This was a 2-week campaign, so if you're reading this after December 2020, the payment functionality is no longer working.",
+    "technologies": [
+      "ReactJS",
+      "Stripe API",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Adobe Illustrator"
+    ],
+    "repo": "https://github.com/alexastef/evolvewithanna",
+    "site": "https://www.evolvewithanna.com"
+  },
+  {
+    "title": "Achilles Heel",
+    "image": "https://i.imgur.com/j65cJDQ.png",
+    "about": "MERN stack application designed to transport users to an Ancient Grecian renaissance of educational games to mitigate stress. This game has something for everyone. Users are prompted to sign up with their Google account and then taken to a distant land where they can choose their arena. Pick your own avatar, earn points, and see where you stack up on the leaderboard. We're in the process of building more levels and adding additional worlds where users can play and learn.",
+    "technologies": [
+      "MongoDB",
+      "ReactJS",
+      "NodeJS",
+      "Express",
+      "Leaflet",
+      "MapBox",
+      "Material UI",
+      "Google Authentication API",
+      "Dicebar API",
+      "ToneJS",
+      "ESlint"
+    ],
+    "repo": "https://github.com/erin-smith/achilles-heel",
+    "site": "https://achilles-heel.herokuapp.com"
+  }
+]

@@ -1,5 +1,5 @@
 import React from "react";
-import MeAtSammish from "../../img/profile.jpg";
+import MeAtSammish from "../../img/profile.jpeg";
 import "./style.css";
 
 function About() {
